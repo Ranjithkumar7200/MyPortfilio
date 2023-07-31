@@ -1,0 +1,104 @@
+
+.navbar{
+    position: fixed;
+}
+.fa-cog{
+    position: fixed;
+    top: 30%;
+    margin-bottom: 20px;
+    font-size: 20px;
+    border: 2px solid rgb(248, 240, 240);
+    padding: 10px;
+    border-radius:0px 15px 15px 0px;
+    box-shadow:0 5px 15px rgb(0, 0, 0.06);
+    border-left: none;
+    cursor: pointer;
+    left: 0;
+    transition: 0.5s;
+    color: rgb(30, 231, 30);
+    
+}
+.fa-moon{
+    color: rgb(30, 231, 30);
+    margin-bottom: 20px;
+    cursor: pointer;
+    font-size: 20px;
+    border: 2px solid rgb(248, 240, 240);
+    padding: 10px;
+    border-radius:0px 15px 15px 0px;
+    box-shadow:0 5px 15px rgb(0, 0, 0.06);
+    border-left: none;
+    position: fixed;
+    top:40%;
+    left: 0;
+    transition: 0.5s;
+}
+.colors{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    border: 1px solid rgb(30, 231, 30);
+    align-items: flex-start;
+    display: none;
+    transform: 0.5s;
+    margin-top: 120px;
+}
+.line{
+    margin-left: 10px;
+}
+.color-head{
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    justify-content: space-between;
+}
+.color-head>h4{
+    margin-left: 10px;
+}
+.color-options{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 15px;
+   
+}
+.color-cancel{
+    margin-left: 90px;
+    cursor: pointer;
+}
+.color-drop{
+    margin-left: 4px;
+    margin-right: 4px;
+}
+.yellow{
+    color: yellow;
+    cursor: pointer;
+}
+.blue{
+    color: blue;
+    cursor: pointer;
+}
+.skyblue{
+    color:skyblue;
+    cursor: pointer;
+}
+.red{
+    color: red;
+    cursor: pointer;
+}
+.darkmagenta{
+    color:darkmagenta;
+    cursor: pointer;
+}
+.violet{
+    color: violet;
+    cursor: pointer;
+}
+.green{
+    color: rgb(30, 231, 30);
+    cursor: pointer;
+}
+.lightslategrey{
+    color:lightslategrey;
+    cursor: pointer;
+}

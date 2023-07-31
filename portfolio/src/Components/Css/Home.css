@@ -1,0 +1,136 @@
+.home-containers{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 80px;
+    font-family: 'Poppins', sans-serif;
+    overflow: hidden;
+}
+.profile-details{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-left: 80px;
+    margin-right: 40px;
+}
+.aboutme-btn{
+    border: 1px solid rgb(30, 231, 30);
+    border-radius: 35px;
+    width: fit-content;
+    display: inline-block;
+    margin: 20px;;
+}
+.about-text{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    border-right: none;
+    height: 50px;
+    padding: 21px;
+    justify-content: space-between;
+    width: 200px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    color: white;
+} 
+.name{
+    font-style:italic;
+    margin-bottom: 20px;
+}
+ .ab-text{
+    color:white;
+    font-weight: 800;
+    width: 100px;
+}
+.arrow{
+    position: relative;
+    left: 30px;
+    padding: 20px;
+    background-color:rgb(30, 231, 30);
+    border-radius: 50px;
+    cursor: pointer;
+    margin-top: 2px;
+    color: black;
+    
+}
+.profile-desc>p{
+    font-family: 'Poppins', sans-serif;
+}
+.photo img{
+    padding: 10px;
+        margin-left: 100px;
+        border: 2px solid rgb(30, 231, 30);
+        border-radius: 0px 40px 0px 40px;
+        width: 300px;
+        height: 350px;
+}
+.profile-job{
+    color: greenyellow;
+    margin-left: 50px;
+    overflow: hidden;
+}
+/* .profile-job:before{
+    content: "";
+    left: 0;
+    top: 0;
+    position: relative;
+    height: 100%;
+    width: 100%;
+    background-color:black;
+    border-left: 2px solid greenyellow;
+    overflow: hidden;
+    animation: typing 4s steps(12) infinite;
+  }
+  
+  @keyframes typing {
+    40% , 60% {
+      left:55%;
+    }
+    100%{
+        left: 0;
+    }
+
+  }
+  
+  @keyframes blink-caret {
+    from, to {
+      border-color: transparent;
+    }
+    50% {
+      border-color: #333;
+    }
+  } */
+/* .aboutme-btn:hover{
+    background-color: yellow;
+    transition: background-color 2s;
+} */
+
+@media only screen and (max-width: 1000px){
+    .photo img{
+        width: 250px;
+        height: 300px;
+        padding: 10px;
+        margin: 10px;
+        border-radius: 0px 40px 0px 40px;
+    }
+    .home-containers{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        margin: 50px;
+        overflow-x: hidden;
+    }
+    .profile-job{
+        margin-left: 20px;
+        font-size: 22px;
+    }
+    .name{
+        font-size: 27px;
+    }
+    
+}
